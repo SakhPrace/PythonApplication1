@@ -1,0 +1,83 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dd93f7fc-cbaa-490d-bfe4-65a85af6bdc6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="records\" />
+    <Folder Include="records\test\" />
+    <Folder Include="records\train\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="records\test\Bashkireva_Irina.wav" />
+    <Content Include="records\test\Bondarenko_Tatyana.wav" />
+    <Content Include="records\test\Dobrovolskaya_Kira.wav" />
+    <Content Include="records\test\Dorofeev_Vadim.wav" />
+    <Content Include="records\test\Gulyarenko_Anna.wav" />
+    <Content Include="records\test\Ivasishina_Lena.wav" />
+    <Content Include="records\test\Krayvaya_Marina.wav" />
+    <Content Include="records\test\Kruglov_Vadim.wav" />
+    <Content Include="records\test\Lavrov_Andey.wav" />
+    <Content Include="records\test\Leont%27eva_Alevtina.wav" />
+    <Content Include="records\test\lobinzeva_Angela.wav" />
+    <Content Include="records\test\Olga_Mayorova.wav" />
+    <Content Include="records\test\Olga_Zubkova.wav" />
+    <Content Include="records\test\Potapov_VItaliy.wav" />
+    <Content Include="records\test\Sashkin_Georgiy.wav" />
+    <Content Include="records\test\Shevchenko_Leonid.wav" />
+    <Content Include="records\test\Soloveva_Elena.wav" />
+    <Content Include="records\test\Veskov_Andrey.wav" />
+    <Content Include="records\test\Vetrova_Natalya.wav" />
+    <Content Include="records\test\Zolotov_Pavel.wav" />
+    <Content Include="records\train\Bashkireva_Irina.wav" />
+    <Content Include="records\train\Bondarenko_Tatyana.wav" />
+    <Content Include="records\train\Dobrovolskaya_Kira.wav" />
+    <Content Include="records\train\Dorofeev_Vadim.wav" />
+    <Content Include="records\train\Gulyarenko_Anna.wav" />
+    <Content Include="records\train\Ivasishina_Lena.wav" />
+    <Content Include="records\train\Krayvaya_Marina.wav" />
+    <Content Include="records\train\Kruglov_Vadim.wav" />
+    <Content Include="records\train\Lavrov_Andey.wav" />
+    <Content Include="records\train\Leont%27eva_Alevtina.wav" />
+    <Content Include="records\train\lobinzeva_Angela.wav" />
+    <Content Include="records\train\Olga_Mayorova.wav" />
+    <Content Include="records\train\Olga_Zubkova.wav" />
+    <Content Include="records\train\Potapov_VItaliy.wav" />
+    <Content Include="records\train\Sashkin_Georgiy.wav" />
+    <Content Include="records\train\Shevchenko_Leonid.wav" />
+    <Content Include="records\train\Soloveva_Elena.wav" />
+    <Content Include="records\train\Veskov_Andrey.wav" />
+    <Content Include="records\train\Vetrova_Natalya.wav" />
+    <Content Include="records\train\Zolotov_Pavel.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
